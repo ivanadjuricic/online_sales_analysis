@@ -17,3 +17,7 @@ def main_program ():
     print(f"\nTotal Inventory Value: ${total_value:.2f}")
     
     
+    p_manager.product_name_remove("Mouse")
+    
+    print("Available Products:")
+    p_manager.display_products()
