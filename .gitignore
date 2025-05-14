@@ -1,0 +1,9 @@
+# Ignoriši fajl sa osetljivim podacima
+config.json
+
+# Ignoriši sve screenshot-ove (npr. PNG, JPG fajlove u folderu screenshots ili slične)
+*.png
+*.jpg
+*.jpeg
+*.docx
+screenshots/
